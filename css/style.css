@@ -206,19 +206,24 @@ body{ background-color:#e8e8e8; }
 header{
         font-family: 'Comfortaa', cursive;
         color: #3C8A9C;
-        height: 100px;
         width: auto;
         padding: 50px 0px 0px 100px;
         
 }
+#buttons{
+    float:right;
+}
+
 article{
+    background-color: #FFFFFF;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
-    width: 600px;
     padding: 10px;
     float: left;
     }
 section{
-    padding: 0 0 0 50px;
+    padding: 40px 0 0 50px;
 }
 a {text-decoration:none; outline:none; color: #E90904}
 a:hover{color: #FE9A2E}
