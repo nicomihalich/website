@@ -41,8 +41,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  * Also: hot pink!
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #666666; color: #fff; text-shadow: none; }
+::selection { background: #666666; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -198,14 +198,40 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* =============================================================================
    Primary styles
-   Author: 
+   Author: Nico Mihalich
    ========================================================================== */
 
 
-
-
-
-
+body{ background-color:#e8e8e8; }
+header{
+        font-family: 'Comfortaa', cursive;
+        color: #3C8A9C;
+        height: 100px;
+        width: auto;
+        padding: 50px 0px 0px 100px;
+        
+}
+article{
+    font-family: 'Open Sans', sans-serif;
+    /*background-color:#FFFFFF;*/
+    width: 600px;
+    padding: 10px;
+    float: left;
+    }
+section{
+    padding: 0 0 0 50px;
+}
+a {text-decoration:none; outline:none; color: #E90904}
+a:hover{color: #FE9A2E}
+a:visited{color: #E90904}
+a:visited:hover{color: #FE9A2E}
+footer{
+    font-family: 'Droid Sans', sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    clear:both;
+}
 
 
 /* =============================================================================
