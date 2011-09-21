@@ -212,7 +212,7 @@ header{
     font: 80px "Helvetica Neue";
 }
 #subtitle{
-    margin: -70px 0 0 0;
+    margin: -60px 0 0 0;
     padding: 8px;
     font: 15px "Helvetica Neue";
     color: #7a7a7a;
@@ -230,7 +230,7 @@ article{
     color: #7a7a7a;
     }
 section{
-    margin: -100px 0 0 400px;
+    margin: -115px 0 0 400px;
 }
 a {text-decoration:none; outline:none; color: #E90904}
 a:hover{color: #FE9A2E}
