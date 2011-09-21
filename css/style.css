@@ -204,11 +204,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 body{ background-color:#e8e8e8; }
 header{
-        padding: 50px 0px 0px 100px;
+        padding: 0px 0px 0px 100px;
         
 }
+#title{
+    color: #7a7a7a;
+    font: 80px "Helvetica Neue";
+}
 #subtitle{
-    margin: -15px 0 0 0;
+    margin: -70px 0 0 0;
+    padding: 8px;
     font: 15px "Helvetica Neue";
     color: #7a7a7a;
 }
@@ -217,22 +222,22 @@ header{
 }
 
 article{
-    background-color: #FFFFFF;
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
-    float: left;
+    width: 550px;
+    color: #7a7a7a;
     }
 section{
-    padding: 40px 0 0 50px;
+    margin: -100px 0 0 400px;
 }
 a {text-decoration:none; outline:none; color: #E90904}
 a:hover{color: #FE9A2E}
 a:visited{color: #E90904}
 a:visited:hover{color: #FE9A2E}
 footer{
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Helvetica Neue";
     margin: auto;
     text-align: center;
     padding: 20px 0 0 0;
