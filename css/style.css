@@ -207,6 +207,41 @@ header{
         padding: 50px 0px 100px 100px;
         
 }
+
+#tabs{
+
+}
+
+#tabs{
+    margin-bottom: -20px;
+    margin-left: 450px;
+    margin-top: -55px;
+}
+#tabs a{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-size:15px;
+	font-weight:bold;
+	padding:16px 30px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+#tabs a:hover {
+	background-color:#dfdfdf;
+}
+#tabs a:active {
+	position:relative;
+	top:1px;
+}
+
 #title{
     color: #7a7a7a;
     font: 80px "Helvetica Neue";
