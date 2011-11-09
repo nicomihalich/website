@@ -200,14 +200,22 @@ table { border-collapse: collapse; border-spacing: 0; }
    Primary styles
    Author: Nico Mihalich
    ======================================================================== */
-
-
-body{ background-color:#e8e8e8; }
-header{
-        padding: 50px 0px 100px 100px;
-        
+@font-face{ 
+	font-family: 'WebSymbolsRegular';
+	src: url('../fonts/websymbols-regular-webfont.eot');
+	src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/websymbols-regular-webfont.woff') format('woff'),
+	     url('../fonts/websymbols-regular-webfont.ttf') format('truetype'),
+	     url('../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
 }
 
+body{
+    background-color:#e8e8e8;
+}
+
+header{
+        padding: 50px 0px 100px 100px;
+}
 #tabs{
     margin-bottom: -20px;
     margin-left: 450px;
@@ -239,6 +247,9 @@ header{
 }
 
 #title{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
     color: #7a7a7a;
     font: 80px "Helvetica Neue";
 }
@@ -251,10 +262,24 @@ h1 {
     font: 15px "Helvetica Neue";
     color: #7a7a7a;
 }
+#symbol{
+display:inline;
+    font-family: 'WebSymbolsRegular';
+}
 #buttons{
+    font-size: 30px;
+    font-family: 'WebSymbolsRegular';
     float:right;
 }
-
+#buttons a{
+    color: #444444;
+}
+#buttons a:hover{
+    color: #FE9A2E;
+}
+#buttons a:active{
+    color: #FE9A2E;
+}
 article{
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -262,14 +287,24 @@ article{
     padding: 10px;
     width: 550px;
     color: #7a7a7a;
-    }
+}
 section{
     margin: -215px 0 0 400px;
 }
-a {text-decoration:none; outline:none; color: #E90904}
-a:hover{color: #FE9A2E}
-a:visited{color: #E90904}
-a:visited:hover{color: #FE9A2E}
+a {
+    text-decoration:none;
+    outline:none;
+    color: #E90904
+}
+a:hover{
+    color: #FE9A2E;
+}
+a:visited{
+    color: #E90904;
+}
+a:visited:hover{
+    color: #FE9A2E;
+}
 footer{
     font-family: "Helvetica Neue";
     margin: auto;
