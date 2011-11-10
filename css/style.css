@@ -263,8 +263,17 @@ h1 {
     color: #7a7a7a;
 }
 #symbol{
-display:inline;
+    display:inline;
     font-family: 'WebSymbolsRegular';
+}
+#symbol a{
+    color: #444444;
+}
+#symbol a:hover{
+    color: #FE9A2E;
+}
+#symbol a:active{
+    color: #FE9A2E;
 }
 #buttons{
     font-size: 30px;
