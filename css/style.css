@@ -312,6 +312,18 @@ footer{
     padding: 20px 0 0 0;
     clear:both;
 }
+#main{
+}
+#easteregg{
+    position:absolute;
+    top:100px;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
+    font-size:20px;
+    text-align:center;
+}
 
 
 /* =============================================================================
