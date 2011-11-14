@@ -210,7 +210,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 body{
-    background-color:#e8e8e8;
+    background-image:url("../img/bg.png");
+    background-repeat:repeat;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header{
@@ -225,7 +227,7 @@ header{
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background-color:#ededed;
+	background-color:#e6e6e6;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 	border-radius:8px;
@@ -239,7 +241,7 @@ header{
 	text-shadow:1px 1px 0px #ffffff;
 }
 #tabs a:hover {
-	background-color:#dfdfdf;
+	background-color:#e2e2e2;
 }
 #tabs a:active {
 	position:relative;
@@ -251,7 +253,7 @@ header{
     -khtml-user-select: none;
     user-select: none;
     color: #7a7a7a;
-    font: 80px "Helvetica Neue";
+    font-size: 80px;
 }
 h1 {
     margin: 0 0 -40px 0;
@@ -259,10 +261,14 @@ h1 {
 #subtitle{
     margin: 80px 0 0 0;
     padding: 8px;
-    font: 15px "Helvetica Neue";
+    font-size: 15px;
     color: #7a7a7a;
 }
 #symbol{
+    display:inline;
+    font-family: 'WebSymbolsRegular';
+}
+#eggsymbol{
     display:inline;
     font-family: 'WebSymbolsRegular';
 }
