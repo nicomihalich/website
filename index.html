@@ -4,15 +4,19 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Nico Mihalich (.com)</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Nico Mihalich (.com)</title>
 	<meta name="description" content="http://www.nicomihalich.com">
 	<meta name="author" content="Nico Mihalich">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
     
     <link type="text/plain" rel="author" href="http://nicomihalich.com/humans.txt" />
     
-	<link rel="stylesheet" href="css/style.css" >
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+  
 </head>
 <body>
 <div id="main">
@@ -56,12 +60,16 @@
 </div>
 <div id="easteregg">
     Extra Life! (and my <a href="GSLDualSight.SC2Replay">that time I (a Gold Zerg) beat that Masters Protoss</a>)<p>
-    <div id="eggsymbol"><a href="/">h</a></div></div>
+    <div id="eggsymbol"><a href="/">h</a></div>
+</div>
 
 <script src="js/libs/modernizr-2.0.6.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-<script type="text/javascript" src="js/plugins.js"></script>
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
 <script>
   konami = new Konami()
     konami.code = function(){
