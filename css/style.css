@@ -322,8 +322,7 @@ a:visited:hover{
 }
 footer{
     font-family: "Helvetica Neue";
-    margin: auto;
-    text-align: center;
+    margin-left:450px;
     padding: 20px 0 0 0;
     clear:both;
 }
