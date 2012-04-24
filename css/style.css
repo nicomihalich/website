@@ -210,54 +210,29 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 body{
-    background-image:url("../img/bg.png");
+    background: #FFFFFF;
+    /*background-image:url("../img/bg.png");*/
     background-repeat:repeat;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header{
         padding: 50px 0px 100px 100px;
+        margin-left: 100px;
 }
-#tabs{
-    margin-bottom: -20px;
-    margin-left: 450px;
-    margin-top: -55px;
-}
-#tabs a{
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background-color:#e6e6e6;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	color:#777777;
-	font-size:15px;
-	font-weight:bold;
-	padding:16px 30px;
-	text-decoration:none;
-	text-shadow:1px 1px 0px #ffffff;
-}
-#tabs a:hover {
-	background-color:#e2e2e2;
-}
-#tabs a:active {
-	position:relative;
-	top:1px;
-}
-
 #title{
     -moz-user-select: none;
     -khtml-user-select: none;
     user-select: none;
-    color: #7a7a7a;
+    color: #297CCF;
     font-size: 80px;
+    text-decoration:none;
+	text-shadow:5px 5px 8px #dddddd;
 }
 h1 {
     margin: 0 0 -40px 0;
 }
+
 #subtitle{
     margin: 80px 0 0 0;
     padding: 8px;
@@ -281,10 +256,16 @@ h1 {
 #symbol a:active{
     color: #FE9A2E;
 }
+
 #buttons{
-    font-size: 30px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    margin-top: -450px;
+    margin-left: 55px;
+    font-size: 100px;
     font-family: 'WebSymbolsRegular';
-    float:right;
+    float:left;
 }
 #buttons a{
     color: #444444;
@@ -295,6 +276,9 @@ h1 {
 #buttons a:active{
     color: #FE9A2E;
 }
+#buttons img {
+    margin-top: 12px;
+    }
 article{
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -304,7 +288,7 @@ article{
     color: #7a7a7a;
 }
 section{
-    margin: -215px 0 0 400px;
+    margin: -90px 0 0 400px;
 }
 a {
     text-decoration:none;
@@ -325,8 +309,6 @@ footer{
     margin-left:450px;
     padding: 20px 0 0 0;
     clear:both;
-}
-#main{
 }
 #easteregg{
     position:absolute;
