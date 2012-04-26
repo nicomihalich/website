@@ -278,7 +278,8 @@ h1 {
 }
 #buttons img {
     margin-top: 12px;
-    }
+    margin-bottom: -20px;
+}
 article{
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -288,7 +289,8 @@ article{
     color: #7a7a7a;
 }
 section{
-    margin: -90px 0 0 400px;
+    font-size: 16px;
+    margin: -90px 0 0 350px;
 }
 a {
     text-decoration:none;
@@ -319,6 +321,38 @@ footer{
     display:none;
     font-size:20px;
     text-align:center;
+}
+
+#blog {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: #EEEEEE;
+    width: auto;
+}
+
+#blogTitle{
+    font-size: 40px;
+    margin-left: 40px;
+    display:inline;
+    text-decoration:none;
+	text-shadow:1px 1px 3px #aaaaaa;
+}
+#blogDate{
+    font-size: 10px;
+    display:inline;
+}
+#blogTweet{
+    float:left;
+    margin-left: 15px;
+}
+#blogText{
+    margin-left: 80px;
+    font-size: 14px;
 }
 
 
