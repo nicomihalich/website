@@ -1,1 +1,0 @@
-This theme requires additional plugins to run. Please log in to the admin panel to enable this theme.
