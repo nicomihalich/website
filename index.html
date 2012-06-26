@@ -38,11 +38,15 @@
       <br>
       <a href="http://www.w3.org/html/logo/" target="_blank">
       <img src="img/HTML5_Badge_128.png" width="100" height="100" alt="HTML5 Powered" title="HTML5 Powered" /></a>
+      <div id="drawer">
+       >
+      </div>
     </div>
 <section>
   <article>
-  <p>... studies computer science at the University of Pennsylvania.</p> 
-  <p>... has some <a href="http://github.com/nicomihalich" target="_blank">code</a>, a <a href="resume.pdf">resume</a>, and a <a href="blog/index.php">blog</a>.</p>
+  <p>... studies computer science at the University of Pennsylvania.</p>
+  <p>... interns at <a href="http://www.brothersportgames.com" target="_blank">Brothersport Games</a>.</p>
+  <p>... has some <a href="http://github.com/nicomihalich" target="_blank">code</a>, and a <a href="resume.pdf">resume</a><!--, and a <a href="blog/index.php">blog</a>-->.</p>
   <p>... loves to get emails at <strong>nico [at] nicomihalich.com</strong></p>
   </article>
 </section>
@@ -65,10 +69,23 @@
 </div>
 
 <script src="js/libs/modernizr-2.0.6.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="js/libs/jquery-1.7.2.min.js"></script>
   <!-- scripts concatenated and minified via ant build script-->
-<script defer type="text/javascript" src="http://konami-js.googlecode.com/svn/trunk/konami.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#buttons").hover(function(){
+        $('#buttons').stop().animate({'margin-left': '55'}, 700);
+        $('header').stop().animate({'margin-left': '100'}, 700);
+        $('#drawer').stop().animate({'margin-left': '120'}, 700);
+    });
+        $("#buttons").mouseleave(function(){
+        $('#buttons').stop().animate({'margin-left': '-100'}, 700);
+        $('header').stop().animate({'margin-left': '-50'}, 700);
+        $('#drawer').stop().animate({'margin-left': '120'}, 700);
+    });
+});
+  </script>
+<script src="js/konami.js"></script>
   <!-- end scripts-->
 <script>
   konami = new Konami()

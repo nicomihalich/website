@@ -218,7 +218,7 @@ body{
 
 header{
         padding: 50px 0px 100px 100px;
-        margin-left: 100px;
+        margin-left: -50px;
 }
 #title{
     -moz-user-select: none;
@@ -229,6 +229,7 @@ header{
     text-decoration:none;
 	text-shadow:5px 5px 8px #dddddd;
 }
+
 h1 {
     margin: 0 0 -40px 0;
 }
@@ -262,11 +263,12 @@ h1 {
     -khtml-user-select: none;
     user-select: none;
     margin-top: -450px;
-    margin-left: 55px;
+    margin-left: -100px;
     font-size: 100px;
     font-family: 'WebSymbolsRegular';
     float:left;
 }
+
 #buttons a{
     color: #444444;
 }
@@ -280,6 +282,14 @@ h1 {
     margin-top: 12px;
     margin-bottom: -20px;
 }
+#drawer{
+    font-family: 'WebSymbolsRegular';
+    display:absolute;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top -40px;
+}
 article{
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -290,7 +300,7 @@ article{
 }
 section{
     font-size: 16px;
-    margin: -90px 0 0 350px;
+    margin: -90px 0 0 325px;
 }
 a {
     text-decoration:none;
