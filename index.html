@@ -1,111 +1,74 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
+    <meta charset="utf-8">
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  <title>Nico Mihalich (.com)</title>
-	<meta name="description" content="http://www.nicomihalich.com">
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+         More info: h5bp.com/i/378 -->
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+
+    <title>Nico Mihalich (.com)</title>
+    <meta name="description" content="http://www.nicomihalich.com">
 	<meta name="author" content="Nico Mihalich">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/main.css">
     
     <link type="text/plain" rel="author" href="http://nicomihalich.com/humans.txt" />
+    <!-- All JavaScript at the bottom, except this Modernizr build.
+         Modernizr enables HTML5 elements & feature detects for optimal performance.
+         Create your own custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="js/vendor/modernizr-2.5.3.min.js"></script>
     
-  <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- end CSS-->
-  
 </head>
 <body>
-<div id="main">
-<!--<a href="http://github.com/nicomihalich" target="_blank"><img style="position: absolute; top: 0; left: 0;" src="img/forkme.png" alt="Fork me on GitHub"></a>-->
-	<header>
-    <div id="title">
-        <h1>Nico</h1>
-        <h1>Mihalich</h1>
-    </div>
-    <!--<div id="subtitle">
-      <div id="symbol">@ </div> nico [at] nicomihalich.com
-    </div>-->
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+         chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <header>
+        <div class="title">Nico Mihalich</div>
+        <div id="drawerButton">;</div>
 	</header>
-    <div id="buttons">
-      <a href="http://www.twitter.com/nicomihalich" target="_blank">t</a>
-      <br>
-      <a href="https://plus.google.com/106733781219238320614" target="_blank">g</a>
-      <br>
-      <a href="http://www.linkedin.com/pub/nicolas-mihalich/37/833/179" target="_blank">l</a>
-      <br>
-      <a href="http://www.w3.org/html/logo/" target="_blank">
-      <img src="img/HTML5_Badge_128.png" width="100" height="100" alt="HTML5 Powered" title="HTML5 Powered" /></a>
-      <div id="drawer">
-       >
-      </div>
-    </div>
-<section>
-  <article>
-  <p>... studies computer science at the University of Pennsylvania.</p>
-  <p>... interns at <a href="http://www.brothersportgames.com" target="_blank">Brothersport Games</a>.</p>
-  <p>... has some <a href="http://github.com/nicomihalich" target="_blank">code</a>, and a <a href="resume.pdf">resume</a><!--, and a <a href="blog/index.php">blog</a>-->.</p>
-  <p>... loves to get emails at <strong>nico [at] nicomihalich.com</strong></p>
-  </article>
-</section>
-  
-  <footer>
-    <!--Proudly powered by
-    <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>,
-    <a href="http://archlinux.org">Archlinux</a>,
-    and <a href="http://linode.com">Linode</a>.
-    <div id="site-logos">
-      <a href="http://www.w3.org/html/logo/" target="_blank">
-      <img src="img/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered" /></a>
-      </div> -->
-	</footer>
+    
+    <section id="drawer">
+        <ul>
+            <li>...studies computer science at the University of Pennsylvania.</li> 
+            <li>...interns at <a href="http://brothersport.com" target="_blank">Brothersport Games</a>.</li>
+            <li>...has <a href="http://github.com/nicomihalich" target="_blank">code</a>,
+                a <a href="MihalichResume.pdf">resume</a>,
+                and is on <a href="http://www.linkedin.com/pub/nicolas-mihalich/37/833/179" target="_blank">LinkedIn</a>.</li>
+            <li>...likes food, bikes, and fighting games.</li>
+        </ul>
+    </section>
+    
+    <section id="links">
+        <a href="https://twitter.com/nicomihalich" target="_blank" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @nicomihalich</a>
+    </section>
+    
+    <footer>
+    </footer>
 
-</div>
-<div id="easteregg">
-    Extra Life! (and my <a href="GSLDualSight.SC2Replay">that time I (a Gold Zerg) beat that Masters Protoss</a>)<p>
-    <div id="eggsymbol"><a href="/">h</a></div>
-</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
 
-<script src="js/libs/modernizr-2.0.6.min.js"></script>
-<script src="js/libs/jquery-1.7.2.min.js"></script>
-  <!-- scripts concatenated and minified via ant build script-->
-  <script>
-  $(document).ready(function(){
-    $("#buttons").hover(function(){
-        $('#buttons').stop().animate({'margin-left': '55'}, 700);
-        $('header').stop().animate({'margin-left': '100'}, 700);
-        $('#drawer').stop().animate({'margin-left': '120'}, 700);
-    });
-        $("#buttons").mouseleave(function(){
-        $('#buttons').stop().animate({'margin-left': '-100'}, 700);
-        $('header').stop().animate({'margin-left': '-50'}, 700);
-        $('#drawer').stop().animate({'margin-left': '120'}, 700);
-    });
-});
-  </script>
-<script src="js/konami.js"></script>
-  <!-- end scripts-->
-<script>
-  konami = new Konami()
-    konami.code = function(){
-      $("#main").fadeOut(function(){
-      $("#easteregg").fadeIn()  
-    })
-  }
-  konami.load()
-</script>
-<script>
-	var _gaq=[['_setAccount','UA-24131847-1'],['_trackPageview']];
-	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+    <!-- scripts concatenated and minified via build script -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- end scripts -->
 
-<!--[if lt IE 7 ]>
-	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
-	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
-<![endif]-->
+    <script>
+        var _gaq=[['_setAccount','UA-24131847-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'http://www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
 </body>
 </html>
