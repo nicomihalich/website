@@ -506,15 +506,16 @@ header {
   display: none;
   color: #FFFFFF;
   background: #444444;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
+  height: 225px;
   width: auto;
-  height: 250px;
   -webkit-box-shadow: inset 0px 3px 5px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    inset 0px 3px 5px rgba(50, 50, 50, 0.75);
   box-shadow:         inset 0px 3px 5px rgba(50, 50, 50, 0.75);
   position: relative;
-  padding-left: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #drawer ul{
@@ -524,6 +525,7 @@ header {
 }
 
 #drawer li {
+  width: auto;
   padding-top: 10px;
 }
 

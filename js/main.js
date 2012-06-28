@@ -23,3 +23,33 @@ $("#drawerButton").click(
         fjs.parentNode.insertBefore(js,fjs);
     }
 } (document,"script","twitter-wjs");
+
+$(".title").fitText(0.8,{ minFontSize: '10px', maxFontSize: '90px' });
+$("#drawerButton").fitText(1.2, { minFontSize: '10px', maxFontSize: '42px' });
+
+
+$(window).load(function() {
+ var w = $('#drawer').innerWidth();
+ 
+ if (w >= 735)
+    fontsize = 18;
+ else if (w >= 565)
+    fontsize = 16;
+ else
+    fontsize = 12;
+    
+ $('#drawer').css('font-size', fontsize + 'px');
+});
+
+$(window).resize(function() {
+ var w = $('#drawer').innerWidth();
+ 
+ if (w >= 735)
+    fontsize = 18;
+ else if (w >= 565)
+    fontsize = 16;
+ else
+    fontsize = 12;
+    
+ $('#drawer').css('font-size', fontsize + 'px');
+});
