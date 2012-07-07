@@ -457,6 +457,11 @@ td {
 	     url('../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
 }
 
+@font-face{ 
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+}
+
 body {
     background: #DDDDDD;
 }
@@ -474,7 +479,7 @@ header {
 
 .title {
   color: rgba(0, 0, 0, 0.66);
-  font-family:"raleway";
+  font-family:"Raleway";
   font-size: 72pt;
   font-weight: 900;
   text-align: center;
@@ -502,12 +507,11 @@ header {
 }
 
 #drawer {
-  font-family: "Raleway";
+  font-family: "Roboto";
   display: none;
   color: #FFFFFF;
   background: #444444;
   font-size: 18px;
-  font-weight: bold;
   height: 225px;
   width: auto;
   -webkit-box-shadow: inset 0px 3px 5px rgba(50, 50, 50, 0.75);
