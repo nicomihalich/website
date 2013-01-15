@@ -1,0 +1,6 @@
+intermediate/*
+publish/*
+.DS_Store
+build/*
+blog/*
+*.pdf
