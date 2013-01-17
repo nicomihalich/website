@@ -467,7 +467,19 @@ body {
 }
 
 header {
-  background: #297ccf;
+  background-image: linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+background-image: -o-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+background-image: -moz-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+background-image: -webkit-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+background-image: -ms-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.23, rgb(0,123,255)),
+  color-stop(0.85, rgb(41,124,207))
+);
   width: auto;
   height: 300px;
   position: relative;
