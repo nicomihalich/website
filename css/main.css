@@ -441,25 +441,30 @@ td {
 
 @font-face{ 
 	font-family: 'Raleway';
-	src: url('../fonts/raleway_thin-webfont.eot');
-	src: url('../fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/raleway_thin-webfont.woff') format('woff'),
-	     url('../fonts/raleway_thin-webfont.ttf') format('truetype'),
-	     url('../fonts/raleway_thin-webfont.svg#WebSymbolsRegular') format('svg');
+	src: url('../fonts/raleway/raleway_thin-webfont.eot');
+	src: url('../fonts/raleway/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/raleway/raleway_thin-webfont.woff') format('woff'),
+	     url('../fonts/raleway/raleway_thin-webfont.ttf') format('truetype'),
+	     url('../fonts/raleway/raleway_thin-webfont.svg#WebSymbolsRegular') format('svg');
 }
 
 @font-face{ 
 	font-family: 'WebSymbolsRegular';
-	src: url('../fonts/websymbols-regular-webfont.eot');
-	src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/websymbols-regular-webfont.woff') format('woff'),
-	     url('../fonts/websymbols-regular-webfont.ttf') format('truetype'),
-	     url('../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	src: url('../fonts/websymbols/websymbols-regular-webfont.eot');
+	src: url('../fonts/websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/websymbols/websymbols-regular-webfont.woff') format('woff'),
+	     url('../fonts/websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+	     url('../fonts/websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+}
+
+@font-face{ 
+  font-family: 'SourceSansPro';
+  src: url('../fonts/sourcesanspro/SourceSansPro-LightItalic.ttf') format('truetype');
 }
 
 @font-face{ 
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+  src: url('../fonts/roboto/Roboto-LightItalic.ttf') format('truetype');
 }
 
 body {
@@ -468,18 +473,18 @@ body {
 
 header {
   background-image: linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
-background-image: -o-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
-background-image: -moz-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
-background-image: -webkit-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
-background-image: -ms-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -o-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -moz-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -webkit-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -ms-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
 
-background-image: -webkit-gradient(
-  linear,
-  left bottom,
-  left top,
-  color-stop(0.23, rgb(0,123,255)),
-  color-stop(0.85, rgb(41,124,207))
-);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.23, rgb(0,123,255)),
+    color-stop(0.85, rgb(41,124,207))
+  );
   width: auto;
   height: 300px;
   position: relative;
