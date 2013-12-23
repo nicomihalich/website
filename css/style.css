@@ -1,0 +1,139 @@
+/* ==|== primary styles =====================================================
+   Author: Nico Mihalich
+   ========================================================================== */
+
+@font-face{ 
+  font-family: 'Raleway';
+  src: url('../fonts/raleway/raleway_thin-webfont.eot');
+  src: url('../fonts/raleway/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/raleway/raleway_thin-webfont.woff') format('woff'),
+       url('../fonts/raleway/raleway_thin-webfont.ttf') format('truetype'),
+       url('../fonts/raleway/raleway_thin-webfont.svg#WebSymbolsRegular') format('svg');
+}
+
+@font-face{ 
+  font-family: 'WebSymbolsRegular';
+  src: url('../fonts/websymbols/websymbols-regular-webfont.eot');
+  src: url('../fonts/websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/websymbols/websymbols-regular-webfont.woff') format('woff'),
+       url('../fonts/websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+       url('../fonts/websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+}
+
+@font-face{ 
+  font-family: 'SourceSansPro';
+  src: url('../fonts/sourcesanspro/SourceSansPro-LightItalic.ttf') format('truetype');
+}
+
+@font-face{ 
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-LightItalic.ttf') format('truetype');
+}
+
+body {
+    background: #DDDDDD;
+}
+
+header {
+  background-image: linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -o-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -moz-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -webkit-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+  background-image: -ms-linear-gradient(bottom, rgb(0,123,255) 23%, rgb(41,124,207) 77%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.23, rgb(0,123,255)),
+    color-stop(0.85, rgb(41,124,207))
+  );
+  width: auto;
+  height: 300px;
+  position: relative;
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select: none;
+  user-select:none;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.66);
+  font-family:"Raleway";
+  font-size: 72pt;
+  font-weight: 900;
+  text-align: center;
+  width: auto;
+  -moz-text-shadow: 0px 1px 0px rgba(209, 209, 209, 0.5);
+  -webkit-text-shadow: 0px 1px 0px rgba(209, 209, 209, 0.5);
+  text-shadow: 0px 1px 0px rgba(209, 209, 209, 0.5);
+  padding-top: 90px;
+  position: relative;
+  cursor: default;
+}
+
+#drawerButton {
+  color: rgba(0, 0, 0, 0.66);
+  font-family:"WebSymbolsRegular";
+  font-size: 32pt;
+  text-align: center;
+  width: auto;
+  -moz-text-shadow: 0px 1px 0px rgba(209, 209, 209, 0.5);
+  -webkit-text-shadow: 0px 1px 0px rgba(209, 209, 209, 0.5);
+  text-shadow: 0px 1px 0px rgba(209, 209, 209, 0.5);
+  padding-top: 10px;
+  position: relative;
+  cursor: default;
+}
+
+#drawer {
+  font-family: "Roboto";
+  display: none;
+  color: #FFFFFF;
+  background: #444444;
+  font-size: 18px;
+  height: 225px;
+  width: auto;
+  -webkit-box-shadow: inset 0px 3px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    inset 0px 3px 5px rgba(50, 50, 50, 0.75);
+  box-shadow:         inset 0px 3px 5px rgba(50, 50, 50, 0.75);
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#drawer ul{
+ list-style-type:none; 
+ margin:0;
+ padding-top: 20px;
+}
+
+#drawer li {
+  width: auto;
+  padding-top: 10px;
+}
+
+#drawer a {
+    color:#fe9a2e;
+    text-decoration: none;
+}
+
+#drawer a:hover {
+  text-decoration: underline;
+}
+
+#symbol {
+  font-family:"WebSymbolsRegular";
+  display: inline;
+  padding-right: 2px;
+  color: #CC0000;
+}
+
+#links {
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select: none;
+  user-select:none;
+  margin-top: 20px;
+  text-align: center;
+}
