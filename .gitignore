@@ -3,4 +3,3 @@ publish/*
 .DS_Store
 build/*
 blog/*
-*.pdf
