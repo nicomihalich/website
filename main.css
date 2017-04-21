@@ -1,0 +1,31 @@
+body {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.25em;
+  letter-spacing: .07em;
+  overflow: hidden;
+  max-width: 650px;
+  margin: 40px auto;
+}
+.pixel {
+  background-color: rgb(255,0,245);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 72px;
+  left: 280px;
+}
+a {
+  text-decoration: none;
+  color: rgba(53, 167, 255, 1);
+}
+a:hover {
+  color: rgba(239, 71, 111, 1);
+  text-decoration: underline;
+  transition-duration: .2s;
+}
+@media (max-width: 750px) {
+  body {
+    margin: 40px 50.5px auto;
+  }
+}
